@@ -100,12 +100,13 @@ img {
 .header-menu-link:hover,
 .header-menu-link:focus {
         color: #404bbf;
-}
-.header-menu-element {
         position: relative;
-        color: #404bbf;
 }
-.header-menu-element::after {
+.header-menu-item {
+        
+        /* color: #404bbf; */
+}
+.header-menu-link::after {
         content: '';
         position: absolute;
         border-radius: 2px;
