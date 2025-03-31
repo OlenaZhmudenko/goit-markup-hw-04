@@ -101,12 +101,9 @@ img {
 .header-menu-link:focus {
         color: #404bbf;
         position: relative;
-        
 }
-.header-menu-item {
-        
-        /* color: #404bbf; */
-}
+
+
 .header-menu-link::after {
         content: '';
         position: absolute;
@@ -309,7 +306,7 @@ img {
         align-items: center;
         justify-content: center;
 }
-.team-icons-link {
+.team-icons-item {
         display: inline-block;
         display: flex;
         height: 40px;
@@ -323,8 +320,8 @@ img {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icons-link:hover, 
-.team-icons-link:focus {
+.team-icons-item:hover, 
+.team-icons-item:focus {
         background-color: #404bbf;
 }
 
@@ -475,7 +472,7 @@ img {
         align-items: center;
         justify-content: center;
 }
-.footer-icons-link {
+.footer-icons-item {
         display: inline-block;
         display: flex;
         height: 40px;
@@ -489,8 +486,8 @@ img {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icons-link:hover,
-.footer-icons-link:focus {
+.footer-icons-item:hover,
+.footer-icons-item:focus {
         background-color: #31d0aa;;
 }
 
