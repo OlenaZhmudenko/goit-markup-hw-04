@@ -172,7 +172,7 @@ img {
         min-width: 169px;
         height: 56px;
         cursor: pointer;
-        transition-property: color, background-color;
+        transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -303,7 +303,8 @@ img {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icons-link:hover {
+.team-icons-link:hover, 
+.team-icons-link:focus {
         background-color: #404bbf;
 }
 
@@ -380,7 +381,10 @@ img {
 }
   .footer-container {
           display: flex;
-          gap: 120px;
+          align-items: baseline;
+  }
+  .footer-logo-section {
+        margin-right: 120px;
   }
 .footer-logo-link {
         font-family: "Raleway", sans-serif;
@@ -422,7 +426,7 @@ img {
 }
 .footer-icons-list {
         display: flex;
-        gap: 24px;
+        gap: 16px;
         align-items: center;
         justify-content: center;
 }
@@ -433,15 +437,16 @@ img {
         width: 40px;
         align-items: center;
         justify-content: center;
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         fill: #f4f4fd;
         border-radius: 50%;
-        
+        transition: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icons-link:hover {
-        background: #31d0aa;;
+.footer-icons-link:hover
+.footer-icons-link:focus {
+        background-color: #31d0aa;;
 }
 
 /*----------------------------FOOTER---------------------*/
