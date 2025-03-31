@@ -89,6 +89,10 @@ img {
         padding-top: 24px;
         padding-bottom: 24px;
         display: inline-block;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -111,6 +115,9 @@ img {
         padding-top: 24px;
         padding-bottom: 24px;
         display: inline-block;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-link:hover,
 .header-address-link:focus {
@@ -165,6 +172,9 @@ img {
         min-width: 169px;
         height: 56px;
         cursor: pointer;
+        transition-property: color, background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -211,12 +221,13 @@ img {
 .features-item-icon {
         display: flex;
         align-items: center;
+        justify-content: center;
         margin: 0 auto;
         border: 1px solid #8e8f99;
         border-radius: 4px;
         max-width: 264px;
         height: 112px;
-        background: #f4f4fd;
+        background-color: #f4f4fd;
         margin-bottom: 8px;
 }
 
@@ -285,14 +296,15 @@ img {
         width: 40px;
         align-items: center;
         justify-content: center;
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         fill: #f4f4fd;
         border-radius: 50%;
+        transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons-link:hover {
-        background: #404bbf;
+        background-color: #404bbf;
 }
 
 /*--------------------------TEAM-------------------------*/
