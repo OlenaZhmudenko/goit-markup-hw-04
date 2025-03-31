@@ -355,6 +355,8 @@ img {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         padding: 40px 32px;
+        height: 100%;
+        width: 100%;
         transform: translateY(100%);
         transition: transform;
         transition-duration: 250ms;
