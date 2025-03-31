@@ -306,7 +306,7 @@ img {
         align-items: center;
         justify-content: center;
 }
-.team-icons-item {
+.team-icons-link {
         display: inline-block;
         display: flex;
         height: 40px;
@@ -320,8 +320,8 @@ img {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icons-item:hover, 
-.team-icons-item:focus {
+.team-icons-link:hover, 
+.team-icons-link:focus {
         background-color: #404bbf;
 }
 
@@ -472,7 +472,7 @@ img {
         align-items: center;
         justify-content: center;
 }
-.footer-icons-item {
+.footer-icons-link {
         display: inline-block;
         display: flex;
         height: 40px;
@@ -486,8 +486,8 @@ img {
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icons-item:hover,
-.footer-icons-item:focus {
+.footer-icons-link:hover,
+.footer-icons-link:focus {
         background-color: #31d0aa;;
 }
 
