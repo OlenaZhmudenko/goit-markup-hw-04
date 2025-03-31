@@ -95,12 +95,13 @@ img {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+        
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
         color: #404bbf;
         position: relative;
+        
 }
 .header-menu-item {
         
