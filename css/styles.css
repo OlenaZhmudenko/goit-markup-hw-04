@@ -95,17 +95,20 @@ img {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        position: relative;
-        color: #404bbf;;
+ 
+                
 }
-/* .header-menu-link:hover,
+.header-menu-link:hover,
 .header-menu-link:focus {
         color: #404bbf;
         position: relative;
-} */
+}
+.header-menu-link.current {
+        color: #404bbf;
+        position: relative;
+}
 
-
-.header-menu-link::after {
+.header-menu-link.current::after {
         content: '';
         position: absolute;
         border-radius: 2px;
@@ -462,10 +465,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
-        display: flex;
         margin-bottom: 16px;
-        align-items: center;
-        
 }
 .footer-icons-list {
         display: flex;
